@@ -1,0 +1,259 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=20] -->
+    <string name="app_name">Welcome to Toronto</string>
+
+    <!-- Category name for hotels [CHAR LIMIT=20] -->
+    <string name="category_hotels">Hotels</string>
+
+    <!-- Category name for museums[CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for restaurants [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for tech companies [CHAR LIMIT=20] -->
+    <string name="category_tech">Tech Companies</string>
+
+    <!-- Name for the Royal York hotel[CHAR LIMIT=20] -->
+    <string name="name_royal_york">Royal York</string>
+
+    <!-- Description for the Royal York hotel[CHAR LIMIT=40] -->
+    <string name="description_royal_york">Historic Toronto luxury hotel</string>
+
+    <!-- Address for the Royal York hotel[CHAR LIMIT=30] -->
+    <string name="address_royal_york">100 Front Street West</string>
+
+    <!-- Email for the Royal York hotel[CHAR LIMIT=30] -->
+    <string name="email_royal_york">ryh.reservations@fairmont.com</string>
+
+    <!-- Name for the Shangri-la hotel[CHAR LIMIT=20] -->
+    <string name="name_shangrila">Shangri-La</string>
+
+    <!-- Descripton for the Shangri-la hotel[CHAR LIMIT=40] -->
+    <string name="description_shangrila">Sleek high-rise hotel</string>
+
+    <!-- Address for the Shangri-la hotel[CHAR LIMIT=30] -->
+    <string name="address_shangrila">188 University Avenue</string>
+
+    <!-- Email for the Shangri-la hotel[CHAR LIMIT=30] -->
+    <string name="email_shangrila">slto@shangri-la.com</string>
+
+    <!-- Name for the Four Seasons hotel[CHAR LIMIT=20] -->
+    <string name="name_four_seasons">Four Seasons</string>
+
+    <!-- Description for the Four Seasons hotel[CHAR LIMIT=40] -->
+    <string name="description_four_seasons">5-Star luxe hotel</string>
+
+    <!-- Address for the Four Seasons hotel[CHAR LIMIT=30] -->
+    <string name="address_four_seasons">60 Yorkville Avenue</string>
+
+    <!-- Email for the Four Seasons hotel[CHAR LIMIT=30] -->
+    <string name="email_four_seasons">info@fourseasons.com</string>
+
+    <!-- Name for the King Edward hotel[CHAR LIMIT=20] -->
+    <string name="name_king_edward">King Edward</string>
+
+    <!-- Description for the King Edward hotel[CHAR LIMIT=40] -->
+    <string name="description_king_edward">Historic downtown Toronto hotel</string>
+
+    <!-- Address for the King Edward hotel[CHAR LIMIT=30] -->
+    <string name="address_king_edward">37 King Street East</string>
+
+    <!-- Email for the King Edward hotel[CHAR LIMIT=30] -->
+    <string name="email_king_edward">info@omnihotels.com</string>
+
+    <!-- Name for the Ritz-Carlton hotel[CHAR LIMIT=20] -->
+    <string name="name_ritz">Ritz-Carlton</string>
+
+    <!-- Description for the Ritz-Carlton hotel[CHAR LIMIT=40] -->
+    <string name="description_ritz">Modern luxury hotel</string>
+
+    <!-- Address for the Ritz-Carlton hotel[CHAR LIMIT=30] -->
+    <string name="address_ritz">181 Wellington Street West</string>
+
+    <!-- Email for the Ritz-Carlton hotel[CHAR LIMIT=30] -->
+    <string name="email_ritz">info@ritzcarlton.com</string>
+
+    <!-- Name for the Royal Ontario museum [CHAR LIMIT=20] -->
+    <string name="name_rom">Royal Ontario Museum</string>
+
+    <!-- Description for the Royal Ontario museum [CHAR LIMIT=40] -->
+    <string name="description_rom">The largest museum in Canada</string>
+
+    <!-- Address for the Royal Ontario museum [CHAR LIMIT=30] -->
+    <string name="address_rom">100 Queens Park</string>
+
+    <!-- Email for the Royal Ontario museum [CHAR LIMIT=30] -->
+    <string name="email_rom">info@rom.on.ca</string>
+
+    <!-- Name for the Hockey Hall of Fame  [CHAR LIMIT=20] -->
+    <string name="name_hockey">Hockey Hall of Fame</string>
+
+    <!-- Description for the Hockey Hall of Fame  [CHAR LIMIT=40] -->
+    <string name="description_hockey">Museum and a Hall of Fame</string>
+
+    <!-- Address for the Hockey Hall of Fame [CHAR LIMIT=30] -->
+    <string name="address_hockey">30 Yonge Street</string>
+
+    <!-- Email for the Hockey Hall of Fame [CHAR LIMIT=30] -->
+    <string name="email_hockey">info@hhof.com</string>
+
+    <!-- Name for the Art Gallery of Ontario [CHAR LIMIT=20] -->
+    <string name="name_ago">Art Gallery of Ontario</string>
+
+    <!-- Description for the Art Gallery of Ontario [CHAR LIMIT=40] -->
+    <string name="description_ago">Collections of Canadian and foreign artists</string>
+
+    <!-- Address for the Art Gallery of Ontario [CHAR LIMIT=30] -->
+    <string name="address_ago">317 Dundas Street West</string>
+
+    <!-- Email for the Art Gallery of Ontario [CHAR LIMIT=30] -->
+    <string name="email_ago">agonext@ago.com</string>
+
+    <!-- Name for the Bata Shoe museum[CHAR LIMIT=20] -->
+    <string name="name_bata">Bata Shoe Museum</string>
+
+    <!-- Description for the Bata Shoe museum[CHAR LIMIT=40] -->
+    <string name="description_bata">Footwear exhibits from around the world</string>
+
+    <!-- Address for the Bata Shoe museum[CHAR LIMIT=30] -->
+    <string name="address_bata">327 Bloor Street West</string>
+
+    <!-- Email for the Bata Shoe museum[CHAR LIMIT=30] -->
+    <string name="email_bata">info@batashoemuseum.ca</string>
+
+    <!-- Name for the Aga Khan museum[CHAR LIMIT=20] -->
+    <string name="name_aga">Aga Khan Museum</string>
+
+    <!-- Description for the Aga Khan museum[CHAR LIMIT=40] -->
+    <string name="description_aga">Museum of Islamic Art</string>
+
+    <!-- Address for the Aga Khan museum[CHAR LIMIT=30] -->
+    <string name="address_aga">77 Wynford Drive</string>
+
+    <!-- Email for the Aga Khan museum[CHAR LIMIT=40] -->
+    <string name="email_aga">information@agakhanmuseum.org</string>
+
+    <!-- Name for La Fenice restaurant[CHAR LIMIT=20] -->
+    <string name="name_la_fenice">La Fenice</string>
+
+    <!-- Description for La Fenice restaurant[CHAR LIMIT=40] -->
+    <string name="description_la_fenice">Italian restaurant in Downtown Toronto</string>
+
+    <!-- Address for La Fenice restaurant[CHAR LIMIT=40] -->
+    <string name="address_la_fenice">319 King Street West</string>
+
+    <!-- Email for La Fenice restaurant[CHAR LIMIT=40] -->
+    <string name="email_la_fenice">info@lafenice.ca</string>
+
+    <!-- Name for Restaurant George [CHAR LIMIT=20] -->
+    <string name="name_george">Restaurant George</string>
+
+    <!-- Description for Restaurant George [CHAR LIMIT=40] -->
+    <string name="description_george">Emphasizing local ingredients</string>
+
+    <!-- Address for Restaurant George [CHAR LIMIT=20] -->
+    <string name="address_george">111C Queen Street East</string>
+
+    <!-- Email for Restaurant George [CHAR LIMIT=20] -->
+    <string name="email_george">info@georgeonqueen.com</string>
+
+    <!-- Name for Restaurant Alo [CHAR LIMIT=20] -->
+    <string name="name_alo">Restaurant Alo</string>
+
+    <!-- Description for Restaurant Alo [CHAR LIMIT=40] -->
+    <string name="description_alo">Modern French restaurant</string>
+
+    <!-- Address for Restaurant Alo [CHAR LIMIT=30] -->
+    <string name="address_alo">163 Spadina Avenue</string>
+
+    <!-- Email for Restaurant Alo [CHAR LIMIT=30] -->
+    <string name="email_alo">info@alorestaurant.com</string>
+
+    <!-- Name for Blu Restaurant  [CHAR LIMIT=20] -->
+    <string name="name_blu">Blu</string>
+
+    <!-- Description for Blu Restaurant  [CHAR LIMIT=40] -->
+    <string name="description_blu">Contemporary Italian restaurant</string>
+
+    <!-- Address for Blu Restaurant  [CHAR LIMIT=30] -->
+    <string name="address_blu">17 Yorkville Avenue</string>
+
+    <!-- Email for Blu Restaurant  [CHAR LIMIT=30] -->
+    <string name="email_blu">info@bluristorante.com</string>
+
+    <!-- Name for Edulis Restaurant  [CHAR LIMIT=20] -->
+    <string name="name_edulis">Edulis</string>
+
+    <!-- Description for Edulis Restaurant  [CHAR LIMIT=40] -->
+    <string name="description_edulis">Menu of wild and foraged foods</string>
+
+    <!-- Address for Edulis Restaurant  [CHAR LIMIT=30] -->
+    <string name="address_edulis">169 Niagara Street</string>
+
+    <!-- Email for Edulis Restaurant  [CHAR LIMIT=30] -->
+    <string name="email_edulis">info@edulisrestaurant.com</string>
+
+    <!-- Name for Osellus Mobile company  [CHAR LIMIT=20] -->
+    <string name="name_osellus">Osellus Mobile</string>
+
+    <!-- Description for Osellus Mobile company  [CHAR LIMIT=40] -->
+    <string name="description_osellus">Full-service app development company</string>
+
+    <!-- Address for Osellus Mobile company  [CHAR LIMIT=30] -->
+    <string name="address_oselus">460 Richmond Street West</string>
+
+    <!-- Email for Osellus Mobile company  [CHAR LIMIT=30] -->
+    <string name="email_osellus">info@osellus-mobile.com</string>
+
+    <!-- Name for Devfusion company  [CHAR LIMIT=20] -->
+    <string name="name_devfusion">Devfusion</string>
+
+    <!-- Description for Devfusion company  [CHAR LIMIT=40] -->
+    <string name="description_devfusion">Mobile App Development</string>
+
+    <!-- Address for Devfusion company  [CHAR LIMIT=30] -->
+    <string name="address_devfusion">1235 Bay Street</string>
+
+    <!-- Email for Devfusion company  [CHAR LIMIT=30] -->
+    <string name="email_devfusion">info@devfusion.ca</string>
+
+    <!-- Name for The Working Group company  [CHAR LIMIT=20] -->
+    <string name="name_working_group">The Working Group</string>
+
+    <!-- Description for The Working Group company  [CHAR LIMIT=40] -->
+    <string name="description_working_group">Custom software for the digital economy</string>
+
+    <!-- Address for The Working Group company  [CHAR LIMIT=30] -->
+    <string name="address_working_group">425 Adelaide Street West</string>
+
+    <!-- Email for The Working Group company  [CHAR LIMIT=30] -->
+    <string name="email_working_group">hello@twg.io</string>
+
+    <!-- Name for Firestitch company  [CHAR LIMIT=20] -->
+    <string name="name_firestitch">Firestitch</string>
+
+    <!-- Description for Firestitch company  [CHAR LIMIT=40] -->
+    <string name="description_firestitch">Custom Web Applications Company</string>
+
+    <!-- Address for Firestitch company  [CHAR LIMIT=30] -->
+    <string name="address_firestitch">1750 Queensway</string>
+
+    <!-- Email for Firestitch company  [CHAR LIMIT=30] -->
+    <string name="email_firestitch">admin@firestitch.com</string>
+
+    <!-- Name for Plastic Mobile company  [CHAR LIMIT=20] -->
+    <string name="name_plastic_mobile">Plastic Mobile</string>
+
+    <!-- Description for Plastic Mobile company  [CHAR LIMIT=40] -->
+    <string name="description_plastic_mobile">Mobile Marketing Agency</string>
+
+    <!-- Address for Plastic Mobile company  [CHAR LIMIT=30] -->
+    <string name="address_plastic_mobile">473 Adelaide Street West</string>
+
+    <!-- Email for Plastic Mobile company  [CHAR LIMIT=30] -->
+    <string name="email_plastic_mobile">contact@plasticmobile.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

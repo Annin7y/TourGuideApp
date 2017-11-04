@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the app -->
+    <color name="blue_background">#79acd2</color>
+
+    <!-- Background color for the hotels category -->
+    <color name="category_hotels">#e109fd</color>
+
+    <!-- Background color for the museums category -->
+    <color name="category_museums">#e6d2e5</color>
+
+    <!-- Background color for the restaurants category -->
+    <color name="category_restaurants">#decc48</color>
+
+    <!-- Background color for the tech companies category -->
+    <color name="category_tech">#dbeae8</color>
+
+</resources>
