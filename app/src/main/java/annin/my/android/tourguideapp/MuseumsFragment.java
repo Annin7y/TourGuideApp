@@ -12,8 +12,9 @@ import java.util.ArrayList;
 
 public class MuseumsFragment extends Fragment {
 
+    // Required empty public constructor
     public MuseumsFragment() {
-        // Required empty public constructor
+      
     }
 
 
@@ -21,7 +22,6 @@ public class MuseumsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
-
 
         ArrayList<Attraction> words = new ArrayList<>();
 
@@ -34,7 +34,6 @@ public class MuseumsFragment extends Fragment {
         AttractionAdapter adapter = new AttractionAdapter(getActivity(),words, R.color.category_museums);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
-
 
         listView.setAdapter(adapter);
 
