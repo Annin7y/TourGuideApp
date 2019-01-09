@@ -9,16 +9,17 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class HotelsFragment extends Fragment {
-
-    public HotelsFragment() {
+public class HotelsFragment extends Fragment
+{
+    public HotelsFragment()
+    {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+                             Bundle savedInstanceState)
+    {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
         ArrayList<Attraction> words = new ArrayList<>();

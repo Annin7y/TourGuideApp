@@ -19,7 +19,8 @@ public class MuseumsFragment extends Fragment
 
         @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+                             Bundle savedInstanceState)
+        {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
         ArrayList<Attraction> words = new ArrayList<>();

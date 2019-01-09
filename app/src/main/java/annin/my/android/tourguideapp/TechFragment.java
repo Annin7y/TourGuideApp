@@ -10,15 +10,16 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 
-public class TechFragment extends Fragment {
-
+public class TechFragment extends Fragment
+{
     public TechFragment() {
         // Required empty public constructor
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+                             Bundle savedInstanceState)
+    {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
 
@@ -31,7 +32,6 @@ public class TechFragment extends Fragment {
         words.add(new Attraction(getString(R.string.name_plastic_mobile), getString(R.string.description_plastic_mobile), getString(R.string.address_plastic_mobile), getString(R.string.email_plastic_mobile)));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), words, R.color.category_tech);
-
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 

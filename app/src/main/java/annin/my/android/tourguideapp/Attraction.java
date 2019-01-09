@@ -4,7 +4,8 @@ package annin.my.android.tourguideapp;
  * Created by Maino96-10022 on 11/2/2016.
  */
 
-public class Attraction {
+public class Attraction
+{
     /**
      * Attraction name
      */
@@ -35,7 +36,8 @@ public class Attraction {
      */
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    public Attraction(String NameId, String DescriptionId, String AddressId, String EmailId, int ImageResourceId) {
+    public Attraction(String NameId, String DescriptionId, String AddressId, String EmailId, int ImageResourceId)
+    {
         mNameId = NameId;
         mDescriptionId = DescriptionId;
         mAddressId = AddressId;
@@ -43,52 +45,57 @@ public class Attraction {
         mImageResourceId = ImageResourceId;
     }
 
-    public Attraction(String NameId, String DescriptionId, String AddressId, String EmailId) {
+    public Attraction(String NameId, String DescriptionId, String AddressId, String EmailId)
+    {
         mNameId = NameId;
         mDescriptionId = DescriptionId;
         mAddressId = AddressId;
         mEmailId = EmailId;
-
     }
 
     /**
      * Get the name of the attraction
      */
-    public String getNameId() {
+    public String getNameId()
+    {
         return mNameId;
     }
 
     /**
      * Get the description of the attraction
      */
-    public String getDescriptionId() {
+    public String getDescriptionId()
+    {
         return mDescriptionId;
     }
 
     /**
      * Get the address of the attraction
      */
-    public String getAddressId() {
+    public String getAddressId()
+    {
         return mAddressId;
     }
 
     /**
      * Get the email of the attraction
      */
-    public String getEmailId() {
+    public String getEmailId()
+    {
         return mEmailId;
     }
 
-    public int getImageResourceId() {
+    public int getImageResourceId()
+    {
         return mImageResourceId;
     }
 
     /**
      * Returns whether or not there is an image for this attraction.
      */
-    public boolean hasImage() {
+    public boolean hasImage()
+    {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
-
 }
 

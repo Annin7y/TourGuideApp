@@ -15,20 +15,23 @@ import java.util.ArrayList;
  * Created by Maino96-10022 on 11/3/2016.
  */
 
-public class AttractionAdapter extends ArrayAdapter<Attraction> {
-
+public class AttractionAdapter extends ArrayAdapter<Attraction>
+{
     private int mColorResourceId;
 
-    public AttractionAdapter(Activity context, ArrayList<Attraction> words, int ColorResourceId) {
+    public AttractionAdapter(Activity context, ArrayList<Attraction> words, int ColorResourceId)
+    {
         super(context, 0, words);
         mColorResourceId = ColorResourceId;
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup parent)
+    {
         //first get the list item view you can use
         View listItemView = convertView;
-        if (listItemView == null) {
+        if (listItemView == null)
+        {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
@@ -47,12 +50,14 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         emailTextView.setText(currentAttraction.getEmailId());
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
-        if (currentAttraction.hasImage()) {
+        if (currentAttraction.hasImage())
+        {
             // If an image is available, display the provided image based on the resource ID
             imageView.setImageResource(currentAttraction.getImageResourceId());
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
-        } else {
+        } else
+            {
             // Otherwise hide the ImageView (set visibility to GONE)
             imageView.setVisibility(View.GONE);
         }
@@ -64,8 +69,5 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
         return listItemView;
-
-
     }
-
 }
