@@ -10,15 +10,14 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 
-public class MuseumsFragment extends Fragment {
-
+public class MuseumsFragment extends Fragment
+{
     // Required empty public constructor
-    public MuseumsFragment() {
-      
-    }
+    public MuseumsFragment()
+    {
+        }
 
-
-    @Override
+        @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
