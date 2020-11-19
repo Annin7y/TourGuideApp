@@ -1,7 +1,23 @@
+/**
+ *  Created by Anastasia Annin on 11/2/2016.
+ *  A Udacity Basics Nanodegree Project
+ *  Copyright 2020 Anastasia Annin
+ *  * Licensed under the Apache License, Version 2.0 (the "License");
+ *  * you may not use this file except in compliance with the License.
+ *  * You may obtain a copy of the License at
+ *  * http://www.apache.org/licenses/LICENSE-2.0
+ *  * Unless required by applicable law or agreed to in writing, software
+ *  * distributed under the License is distributed on an "AS IS" BASIS,
+ *  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  * See the License for the specific language governing permissions and
+ *  * limitations under the License.
+ *
+ */
+
 package annin.my.android.tourguideapp;
 
 import android.app.Activity;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +27,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Maino96-10022 on 11/3/2016.
- */
+import annin.my.android.tourguideapp.Attraction;
 
 public class AttractionAdapter extends ArrayAdapter<Attraction>
 {
@@ -30,8 +44,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction>
     {
         //first get the list item view you can use
         View listItemView = convertView;
-        if (listItemView == null)
-        {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
@@ -57,7 +70,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction>
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
         } else
-            {
+        {
             // Otherwise hide the ImageView (set visibility to GONE)
             imageView.setVisibility(View.GONE);
         }
